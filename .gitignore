@@ -1,0 +1,25 @@
+# ── IntelliJ ──────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ── Java / Spring Boot ────────────────
+*.class
+*.jar
+*.war
+target/
+
+# ── Node / Next.js ────────────────────
+node_modules/
+.next/
+out/
+
+# ── Variables d'environnement ─────────
+.env
+.env.local
+.env.*.local
+
+# ── OS ────────────────────────────────
+.DS_Store
+Thumbs.db
