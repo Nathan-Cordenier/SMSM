@@ -4,7 +4,7 @@ services:
     environment:
       - POSTGRES_DB=smsm_db
       - POSTGRES_USER=smsm_user
-      - POSTGRES_PASSWORD=smsm_pass
+      - POSTGRES_PASSWORD=smsm_password
     ports:
       - "5432:5432"
     volumes:
