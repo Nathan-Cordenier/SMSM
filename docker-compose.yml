@@ -1,0 +1,13 @@
+services:
+  bdd:
+    image: postgres:16
+    environment:
+      - POSTGRES_DB=smsm_db
+      - POSTGRES_USER=smsm_user
+      - POSTGRES_PASSWORD=smsm_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:
